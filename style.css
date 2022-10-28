@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(135deg, purple, orange);
+  background-attachment: fixed;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 20vh;
+}
+
+.social-media {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+  opacity: 0.3;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.social-media p {
+  margin: 0px 10px;
+  display: flex;
+  margin-left: -5px;
+}
+
+.fa-angle-down {
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.social-media-icons {
+  width: 300px;
+  background-color: white;
+  opacity: 0.3;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.social-media-icons li {
+  display: flex;
+  align-items: center;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.social-media-icons li:hover {
+  background-color: lightgray;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: padding 0.2s linear;
+  margin-left: 10px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-linkedin,
+.fa-pinterest {
+  margin: 0px 10px;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
+}
+
+.fa-pinterest {
+  color: #e60023;
+}
